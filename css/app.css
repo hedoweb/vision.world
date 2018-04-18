@@ -1,0 +1,517 @@
+html{
+	font-size: 16px !important;
+}
+html, body{
+	font-size: 16px;
+}
+html body, h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Outils*/
+/* Header */
+/* Navigation */
+/* Container */
+/* Footer */
+
+
+/* -------------------Outils----------------- */
+	#arrow{
+		width: 80px;
+		height: 80px;
+		margin-right: auto;
+		margin-left: auto;
+/*		display: block;
+		height: 80px;
+		width: 80px;
+		background-color: #0c4690;
+		border-radius: 100%;
+*/
+
+	}
+
+/* -------------------FIN Outils----------------- */
+
+
+
+
+/* -------------------Header----------------- */
+/* -------------------FIN Header----------------- */
+#template .home-video{
+	display: block;
+	width: 960px;
+}
+
+
+/* -------------------Navigation----------------- */
+.navbar-default{
+	font-weight: bold;
+	color: #fff;
+	background-color: #0c4690;
+	font-size: 16px;
+	border-color: #0c4690;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #e0e0e0;
+}
+#navigation-head{
+	display: block;
+	height: 80px;
+}
+.navbar-collapse ul{
+	margin-top: 10px;
+}
+.navbar-collapse ul>li{
+	text-transform: uppercase;
+}
+
+
+/* -------------------FIN Navigation----------------- */
+
+
+
+/* -------------------Container----------------- */
+#template{
+	margin-top: 79px;
+}
+.container{
+	width: 960px;
+}
+
+
+/* Banner*/
+#template #banner{
+	max-width: 1900px;
+	z-index: 0;
+}
+#template #banner img{
+	width: 100%;
+}
+
+/* Titre de la page*/
+#template .banner .title{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+#template .banner .title h1, #template .video-theme .title h1{
+	position: relative;
+	display: block;
+	width: 25%;
+	height: 40px;
+	color: #fff;
+	background-color: #0c4690;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+	margin-top: -20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	z-index: 999;
+}
+/**/
+
+#template-home-page .banner img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*	Page Home*/
+#template .body-home h2{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: #0c4690;
+	text-transform: uppercase;
+	margin-bottom: 90px;
+}
+#template .body-home h5{
+	text-transform: uppercase;
+}
+#template .competences h5{
+	margin-top: 25px;
+
+}
+#template .competences img{
+	margin-top: -100px;
+}
+#template .competences a{
+	color: #fff;
+	text-decoration: none;
+}
+#template .competences{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	width: 290px;
+	height: 160px;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+#template .subline{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: 24px;
+}
+#template #body1 .square-background{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	background-color: #000;
+	color: #fff;
+	padding: 15px 5px;
+	text-align: center;
+}
+
+
+/*  Page Agence*/
+#template .page-excerpt p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+#template.template-agence-page .square-background{
+	width: 290px;
+	height: 160px;
+}
+#template .page-excerpt p:last-child{
+	margin-bottom: 5px;
+}
+#template #body1 .square-background .text-content{
+	font-size: 14px;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+#template #body1 .square-background .text-content p{
+	padding-bottom: 5px;
+}
+
+#template.template-agence-page #body1 .background-1,#template.template-competence-page #body1 .background-1{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/agence-square-1.jpg");
+}
+#template.template-agence-page #body1 .background-2, #template.template-competence-page #body1 .background-2{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/agence-square-2.jpg");
+}
+#template.template-agence-page #body1 .background-3, #template.template-competence-page #body1 .background-3{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/agence-square-3.jpg");
+}
+#template.template-agence-page #body2 .blue-square{
+	width: 20%;
+	margin: 10px auto;
+	padding: 5px 5px;
+	background-color: #0c4690;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+/*	Page Compétences*/
+#template.template-competence-page .page-excerpt{
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+#template.template-competence-page #body1{
+	margin-bottom: 2rem;
+}
+#template.template-competence-page #body1 .square-background{
+	width: 170px;
+	height: 140px;
+	margin-bottom: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+}
+#template.template-competence-page #body1 .background-1{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/video-marketing.png");
+}
+#template.template-competence-page #body1 .background-2{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/agence-square-2.jpg");
+}
+#template.template-competence-page #body1 .background-3{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/agence-square-3.jpg");
+}
+
+#template.template-competence-page #body1 .text-content{
+	margin: 0;
+	padding: 0;
+}
+#template.template-competence-page #body1 .text-content p {
+	font-size: 18px;
+	margin-bottom: 2px;
+	z-index: 2;
+}
+#template.template-competence-page #body1 .see {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: -37px;
+}
+#template.template-competence-page #body1 .square-background .draw {
+	z-index: 999;
+}
+
+/*	Page Réalisation Testimonial*/
+#template.template-testimonial-page .intro{
+	text-transform: uppercase;
+	color: #0c4690;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+#template.template-testimonial-page .circle-background{
+	width: 150px;
+	height: 150px;
+	background-color: #0c4690;
+	border-radius: 100%;
+	margin-bottom: 3rem;
+}
+#template.template-testimonial-page .circle-background .text-content{
+	text-align: center;
+	font-style: 18px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 2rem;
+}
+#template.template-testimonial-page #body2 .show-title{
+	margin-bottom: 2rem;
+}
+#template.template-testimonial-page #body2 .show-video{
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+#template.template-testimonial-page #body2 .show-title .title{
+	height: 32px;
+	text-align: center;
+	background-color: #0c4690;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 25px;
+	line-height: 32px;
+}
+#template.template-testimonial-page #body2 .end-page{
+	color: #0c4690;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+}
+#template.template-testimonial-page #body2{
+	margin-bottom: 1rem;
+}
+
+/*	Page réalisations vidéo*/
+#template.template-videos-page #body1, #template.template-videos-page #body2{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#template.template-videos-page #body2 .title-bkg{
+	width: 320px;
+	height: 90px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#template.template-videos-page #body2 .content{
+	min-height: 135px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-size: 14px;
+}
+#template.template-videos-page #body2 .img img{
+	border: 2px #0c4690 solid;
+}
+
+#template.template-videos-page #body2 .bkg{
+	float: left;
+	width: 85px;
+	height: 85px;
+	background-color: #fbe332;
+	border-radius: 100%;
+	z-index: 10;
+}
+#template.template-videos-page #body2 .bkg img{
+	width: 100px;
+	margin-top: 25%;
+	margin-left: -15%;
+}
+#template.template-videos-page #body2 .title-bkg .title{
+	position: relative;
+	margin-top: 8%;
+	margin-left: -20px;
+	z-index: -10;
+	display: inline-block;
+	padding: 2px 20px 2px 30px;
+	border-radius: 10px;
+	background-color: #0c4690;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/*	Page Affichage Ecran*/
+#template.template-affichage-page #body1{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#template.template-affichage-page #body1 .page-intro{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	font-size: 14px;
+
+}
+#template.template-affichage-page #body1 .title{
+	margin-bottom: 1rem;
+	display: inline-block;
+	position: relative;
+	background-color: #0c4690;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 15px;
+	padding: 3px 15px 3px 15px;
+}
+#template.template-affichage-page #body1 .content{
+	min-height: 145px;
+	border: 1px #0c4690 solid;
+	padding-top: 2rem;
+	margin-top: -2rem;
+	margin-left: 0.3rem;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+	font-size: 12px;
+}
+#template.template-affichage-page #body1 .content a{
+	position: absolute;
+	bottom: 5px;
+	left: 2rem;
+}
+#template.template-affichage-page #body2{
+	margin-bottom: 3rem;
+}
+#template.template-affichage-page #body2 .img{
+	border: 2px #0c4690 solid;
+	width: 210px;
+	height: 250px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*	Page Animation 3D*/
+#template.template-animation-page #body1,#template.template-animation-page #body2{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#template.template-animation-page .page-intro {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#template.template-animation-page #body2 .img {
+	border: 2px solid #0c4690;
+	margin-top: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+	width: 250px;
+	height: 350px;
+}
+
+
+/*	Page Contact*/
+#template.template-contact-page #body1{
+
+}
+#template.template-contact-page #body1 .square-background{
+	width: 400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	z-index: 10;
+}
+#template.template-contact-page .page-title h5{
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+#template.template-contact-page .square-background .text-content p{
+	padding-top: 5px;
+	font-size: 18px;
+}
+#template.template-contact-page .square-background .text-content span{
+	font-weight: 400;
+	font-size: 30px;
+}
+#template.template-contact-page #body1 .background-1{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/toulouse.png");
+}
+#template.template-contact-page #body1 .background-2{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/montpellier.png");
+}
+#template.template-contact-page #body2 h5.title{
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+/* -------------------FIN Container----------------- */
+
+
+
+/* -------------------Footer----------------- */
+footer{
+	background-color: #000;
+}
+footer .container{
+	height: 50px;
+}
+footer ul.navbar-nav{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+}
+footer ul>li{
+	padding-right: 25px;
+}
+footer ul>li:last-child{
+	float: right;
+	padding-right: 0;
+}
+/* -------------------FIN Footer----------------- */
