@@ -3,7 +3,7 @@ $pageTitle = "réalisations vidéo";
  ?>
 <div class="template template-videos-page" id="template">
   <div class="video-theme text-center">
-    <iframe height="360" width="640"  id="video-theme" src="img/lecteur-video-640.jpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="960" height="540" src="https://www.youtube.com/embed/w6inwhj21vc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <div class="title">
       <h1><?php echo $pageTitle ?></h1>
     </div>
@@ -12,9 +12,8 @@ $pageTitle = "réalisations vidéo";
 
 
 <div id="body1" class="text-center">
-  <img src="img/gestion-projet-750x143.png">
+  <img src="img/process-video.png">
 </div>
-<div id="arrow" class="arrow"></div>
 <div id="body2">
   <div class="row">
     <div class="col-md-4">
@@ -35,7 +34,7 @@ $pageTitle = "réalisations vidéo";
     <div class="col-md-4">
       <div class="title-bkg">
         <div class="bkg">
-          <img src="img/camera-icone.png" alt="picto-camera">
+          <img src="img/picto_drone.png" alt="picto-drone">
         </div>
         <div class="title">drone</div>
       </div>

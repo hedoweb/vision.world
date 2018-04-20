@@ -39,10 +39,6 @@ html body, h1, h2, h3, h4, h5, h6{
 
 /* -------------------Header----------------- */
 /* -------------------FIN Header----------------- */
-#template .home-video{
-	display: block;
-	width: 960px;
-}
 
 
 /* -------------------Navigation----------------- */
@@ -56,6 +52,8 @@ html body, h1, h2, h3, h4, h5, h6{
 .navbar-default .navbar-nav>li>a{
 	color: #fff;
 	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 0;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #e0e0e0;
@@ -63,6 +61,13 @@ html body, h1, h2, h3, h4, h5, h6{
 #navigation-head{
 	display: block;
 	height: 80px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.navbar-brand{
+	padding-left: 0;
+	padding-right: 0;
 }
 .navbar-collapse ul{
 	margin-top: 10px;
@@ -119,12 +124,7 @@ html body, h1, h2, h3, h4, h5, h6{
 	font-weight: 600;
 	z-index: 999;
 }
-/**/
 
-#template-home-page .banner img{
-	width: 100%;
-	height: auto;
-}
 
 
 /*	Page Home*/
@@ -134,17 +134,39 @@ html body, h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	color: #0c4690;
 	text-transform: uppercase;
-	margin-bottom: 90px;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+}
+#template.template-home-page .banner img{
+	width: 100%;
+	height: auto;
 }
 #template .body-home h5{
 	text-transform: uppercase;
 }
-#template .competences h5{
-	margin-top: 25px;
+#template .home-video{
+	display: block;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#template.template-home-page .bkg{
+	margin-top: -2rem;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	display: inline-block;
+	border-radius: 100%;
+	background-color: #ffed00;
+}
+#template.template-home-page .bkg img {
+
 
 }
-#template .competences img{
-	margin-top: -100px;
+#template .competences h5{
+	margin-top: 25px;
+	font-weight: 700;
+	font-size: 24px;
 }
 #template .competences a{
 	color: #fff;
@@ -278,11 +300,19 @@ html body, h1, h2, h3, h4, h5, h6{
 	margin-bottom: 3rem;
 }
 #template.template-testimonial-page .circle-background{
+	display: block;
+	line-height: 150px;
+	text-align: center;
 	width: 150px;
 	height: 150px;
-	background-color: #0c4690;
 	border-radius: 100%;
+	border: 1px solid black;
 	margin-bottom: 3rem;
+}
+
+#template.template-testimonial-page #body1 img{
+	display: inline-block;
+	width: 140px;
 }
 #template.template-testimonial-page .circle-background .text-content{
 	text-align: center;
@@ -345,7 +375,7 @@ html body, h1, h2, h3, h4, h5, h6{
 	float: left;
 	width: 85px;
 	height: 85px;
-	background-color: #fbe332;
+	background-color: #ffed00;
 	border-radius: 100%;
 	z-index: 10;
 }
@@ -442,6 +472,21 @@ html body, h1, h2, h3, h4, h5, h6{
 	height: 350px;
 }
 
+/* 	Page Equipe */
+#template.template-equipe-page #body1{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#template.template-equipe-page #body1 .team-bkg{
+	display: block;
+	background-color: #e0e0e0;
+	width: 300px;
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 1.2em;
+	color: #000;
+	margin-top: 1rem;margin-bottom: 1rem;
+}
 
 /*	Page Contact*/
 #template.template-contact-page #body1{
@@ -468,7 +513,7 @@ html body, h1, h2, h3, h4, h5, h6{
 	font-size: 18px;
 }
 #template.template-contact-page .square-background .text-content span{
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 30px;
 }
 #template.template-contact-page #body1 .background-1{
@@ -502,7 +547,6 @@ footer ul.navbar-nav{
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
-	font-weight: 600;
 	background-color: #000;
 	color: #fff;
 	width: 100%;
@@ -510,8 +554,19 @@ footer ul.navbar-nav{
 footer ul>li{
 	padding-right: 25px;
 }
+footer ul>li span{
+	font-weight: 700;
+}
 footer ul>li:last-child{
 	float: right;
 	padding-right: 0;
+}
+
+footer a{
+	color: #ddd;
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: none;
 }
 /* -------------------FIN Footer----------------- */

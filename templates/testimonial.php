@@ -13,22 +13,22 @@ $pageTitle = "réalisations";
   <div class="row">
     <div class="col-md-3">
       <div class="circle-background background-1">
-        <div class="text-content"><p>logo</p><p>client</p></div>
+        <img src="img/client1.jpg" alt="nom client 1">
       </div>
     </div>
     <div class="col-md-3">
       <div class="circle-background background-2">
-        <div class="text-content"><p>logo</p><p>client</p></div>
+        <img src="img/client2.jpg" alt="nom client 1">
       </div>
     </div>
     <div class="col-md-3">
       <div class="circle-background background-3">
-        <div class="text-content"><p>logo</p><p>client</p></div>
+        <img src="img/client3.jpg" alt="nom client 1">
       </div>
     </div>
     <div class="col-md-3">
       <div class="circle-background background-4">
-        <div class="text-content"><p>logo</p><p>client</p></div>
+        <img src="img/client4.png" alt="nom client 1">
       </div>
     </div>
   </div>

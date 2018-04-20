@@ -3,16 +3,15 @@ $pageTitle = "3D-animation";
  ?>
 <div class="template template-animation-page" id="template">
   <div class="video-theme text-center">
-    <iframe height="360" width="640"  id="animation-theme" src="img/lecteur-video-640.jpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="960" height="540" src="https://www.youtube.com/embed/Hzh76jjx_oQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <div class="title">
       <h1><?php echo $pageTitle ?></h1>
     </div>
   </div>
   <div class="container">
     <div id="body1" class="text-center">
-    <img src="img/animation-scheme.png">
+    <img src="img/process-animation.png">
     </div>
-    <div id="arrow" class="arrow"></div>
     <div id="body2">
       <div class="row">
         <div class="page-intro">

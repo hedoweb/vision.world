@@ -5,9 +5,8 @@ $thisBanner = 'banner1.png';
 <!-- https://www.youtube.com/embed/w6inwhj21vc?rel=0&amp;controls=0&amp;showinfo=0 -->
 
 <div id="template" class="template template-home-page">
-	<div class="home-video">
-		<!-- <img src="img/banner1.png"> -->
-		<iframe height="680" width="1366"  id="player-home" src="img/banner1.jpeg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class="home-video text-center">
+		<iframe width="960" height="540" src="https://www.youtube.com/embed/G7J6DVDFWJI?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
 	<div class="body-home" id="body-home">
 		<div class="container">
@@ -17,11 +16,12 @@ $thisBanner = 'banner1.png';
 
 					<a href="<?php echo $siteUrl ?>?p=affichage-ecran">
 						<div class="competences screen">
-							<svg  viewBox="0 0 290 30">
-								<circle cx="145" cy="-10" r="30" fill="white" />
-								<img src="img/Artboard-1.png">
-							</svg>
-							<h5>écran vidéo</h5>
+							<div class="title-bkg">
+        						<div class="bkg">
+          							<img src="img/picto_totem.png" alt="picto-ecran">
+        						</div>
+      						</div>
+        					<h5>écran vidéo</h5>
 						</div>
 					</a>
 				</div>
@@ -43,7 +43,7 @@ $thisBanner = 'banner1.png';
 						<div class="competences animation">
 							<svg  viewBox="0 0 290 30">
 								<circle cx="145" cy="-10" r="30" fill="white" />
-								<img src="img/Artboard-2.png">
+								<img src="img/Artboard-3.png">
 							</svg>
 							<h5>Animation 3D</h5>
 						</div>
