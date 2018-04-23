@@ -7,7 +7,7 @@
 <footer>
 <div class="container">
 
-	<ul class="nav navbar-nav">
+	<ul class="nav navbar-nav navbar-fixed-bottom">
 		<li>Copyright 2015-2018</li>
 		<li>Mentions légales</li>
 		<li>Design by <span>Vision.</span>World & <span><a href="http://hedoweb.com">Hedoweb</a></span></li>
